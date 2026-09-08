@@ -1,0 +1,5 @@
+# 本機開發用，不需要上傳
+.claude/
+
+# 主視覺原始大檔（網站用的是壓縮過的 banner.jpg）
+banner-original.jpg
