@@ -75,6 +75,7 @@ h1{font-size:clamp(28px,6vw,38px);line-height:1.4;margin:0 0 14px;font-weight:80
 main{padding:30px 0 20px}
 h2{font-size:15px;color:var(--ink-3);font-weight:700;letter-spacing:.06em;margin:0 0 16px;text-transform:uppercase}
 
+.articles{display:grid;gap:18px}
 .article-card{
   display:block;background:var(--card-bg);border:1px solid var(--line);border-radius:var(--radius-lg);
   overflow:hidden;box-shadow:var(--card-shadow);text-decoration:none;color:inherit;
@@ -109,6 +110,7 @@ footer a{font-weight:600}
   <main>
     <h2>目前收錄</h2>
 
+    <div class="articles">
     <a class="article-card" href="/jp-guide/">
       <img src="/jp-guide/banner.jpg" width="1408" height="768" loading="eager" decoding="async"
            alt="2026 年 11 月起日本機場退稅新制：旅客在出境大廳的自動退稅機台辦理電子手續">
@@ -119,6 +121,18 @@ footer a{font-weight:600}
         <span class="cta">閱讀全文 →</span>
       </div>
     </a>
+
+    <a class="article-card" href="/jp-guide/visit-japan-web/">
+      <img src="/jp-guide/visit-japan-web/banner.jpg" width="1408" height="768" loading="lazy" decoding="async"
+           alt="Visit Japan Web 完整登錄教學：一個 QR Code 走完入境審查與海關申報">
+      <div class="article-card__body">
+        <span class="badge" style="background:#2980b9">入境必備</span>
+        <h3>Visit Japan Web 完整教學</h3>
+        <p>出發前十分鐘上網登錄，抵達日本時出示一個 QR Code，入境審查和海關申報就都完成了。從註冊到過關走一遍，附入境免稅額度試算器，以及免稅購物 QR 的啟用方式。</p>
+        <span class="cta">閱讀全文 →</span>
+      </div>
+    </a>
+    </div>
 
     <div class="about">
       <h2>關於本站</h2>
