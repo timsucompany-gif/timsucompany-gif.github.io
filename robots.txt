@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://timsucompany-gif.github.io/jp-guide/sitemap.xml
