@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "FLTZX3F2FA.com.timsucompany.taiwanfishingmap"
+        ],
+        "components": [
+          {
+            "/": "/taiwan-fishing-map/at/*"
+          }
+        ]
+      }
+    ]
+  }
+}
